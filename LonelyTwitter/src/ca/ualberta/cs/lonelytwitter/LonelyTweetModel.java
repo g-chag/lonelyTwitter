@@ -2,6 +2,8 @@ package ca.ualberta.cs.lonelytwitter;
 
 import java.util.Date;
 
+import android.R.string;
+
 public class LonelyTweetModel {
 	private String text;
 	private Date timestamp;
@@ -43,5 +45,10 @@ public class LonelyTweetModel {
 		}
 		LonelyTweetModel otherTweet = (LonelyTweetModel) other;
 		return text.equals(otherTweet.text);
+	}
+
+	public string compareTo(ca.ualberta.cs.lonelytwitter.LonelyTweetModel t6) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }
