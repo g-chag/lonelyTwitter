@@ -43,4 +43,8 @@ public class LonelyTwitterActivityUITest extends
 		textInput.setText(text);
 		((Button) activity.findViewById(ca.ualberta.cs.lonelytwitter.R.id.save)).performClick();
 	}
+	
+	public void testAddTweet() {
+		
+	}
 }
